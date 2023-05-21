@@ -6,7 +6,10 @@ export default function Nav() {
   return (
     <div>
      <ul>
-      <li>About Me</li>
+      <li><Link href={`/about-me`}>About Me</Link></li>
+      <li><a href="https://www.antonioguerriere.com">My Portfolio</a></li>
+      <li><Link href={`/`}>My GitHub</Link></li>
+      <li><Link href={`/`}>Contact </Link></li>
       <li>My Portfolio</li>
       <li>My GitHub</li>
       <li>Contact Me</li>
