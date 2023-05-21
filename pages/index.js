@@ -22,14 +22,7 @@ export default function Home( {allPostsData} ) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>⚡️ Antonio's Blog</p>
-        <p>
-          A blog about software development, Artificial Intelligence and technology
-        </p>
-      </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, intro, coverImage }) => (
             <li className={utilStyles.listItem} key={id}>

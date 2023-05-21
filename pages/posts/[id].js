@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -44,6 +45,9 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+      <div>
+        <Link href="/">← Back to home</Link>
+      </div>
     </Layout>
   );
 }

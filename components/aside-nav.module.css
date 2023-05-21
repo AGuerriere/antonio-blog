@@ -1,0 +1,19 @@
+.aside {
+  min-width: 15vw;
+}
+
+.aside li {
+  list-style-type: none;
+
+}
+
+.aside ul {
+  padding: 0;
+  color: #666;
+  font-size: smaller;
+}
+
+.aside p {
+  font-size: smaller;
+  color: #666;
+}
