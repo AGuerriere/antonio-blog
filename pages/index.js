@@ -30,7 +30,7 @@ export default function Home( {allPostsData} ) {
               <Date dateString={date} />
             </small>
             <br />
-            <Link href={`/posts/${id}`}>{title}</Link>
+            <Link className={utilStyles.headingXl } href={`/posts/${id}`}>{title}</Link>
             <Image
               priority
               src={coverImage}

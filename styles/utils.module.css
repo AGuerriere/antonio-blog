@@ -33,13 +33,13 @@
 }
 
 .listItem {
-  margin: 0 0 1.25rem;
+  margin: 0 0 3rem;
 }
 
 .lightText {
   color: #666;
 }
 
-.excerptBanner {
-
+.title {
+  font-size: 2rem;
 }
