@@ -26,6 +26,11 @@ export default function Home( {allPostsData} ) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, intro, coverImage }) => (
             <li className={utilStyles.listItem} key={id}>
+            <small className={utilStyles.lightText}>
+              <Date dateString={date} />
+            </small>
+            <br />
+            <Link href={`/posts/${id}`}>{title}</Link>
             <Image
               priority
               src={coverImage}
@@ -34,11 +39,6 @@ export default function Home( {allPostsData} ) {
               width={144}
               alt="excerpt banner"
             />
-            <Link href={`/posts/${id}`}>{title}</Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
             <p>{intro}</p>
           </li>        
           ))}

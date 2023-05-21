@@ -23,3 +23,10 @@
   font: var(--fa-font-solid);
   content: "\f09e";
 }
+
+
+
+.newsLetter::before {
+  font: var(--fa-font-solid);
+  content: "\f0e0";
+}

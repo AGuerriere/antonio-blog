@@ -24,4 +24,8 @@
   .contentContainer {
     flex-direction: column-reverse;
   }
+
+  .contentContainer {
+    width: 100vw;
+  }
 }

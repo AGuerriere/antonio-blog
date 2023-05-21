@@ -13,7 +13,7 @@ export default function AsideNav() {
      </ul>
      <ul>
       <li className={asideStyles.rss}> Subscribe in a reader</li>
-      <li>📧 Subscribe to newsletter</li>
+      <li className={asideStyles.newsLetter}>Subscribe to newsletter</li>
      </ul>
      <p>Blog started in 2023</p>
     </div>
