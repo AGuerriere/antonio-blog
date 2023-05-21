@@ -39,7 +39,7 @@ export default function Home( {allPostsData} ) {
               // className={utilStyles.borderCircle}
               height={144}
               width={144}
-              alt=""
+              alt="excerpt banner"
             />
             <Link href={`/posts/${id}`}>{title}</Link>
             <br />
