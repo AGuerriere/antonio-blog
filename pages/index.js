@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import Image from 'next/image';
 
 
 export async function getStaticProps() {
@@ -30,8 +31,16 @@ export default function Home( {allPostsData} ) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, intro }) => (
+          {allPostsData.map(({ id, date, title, intro, coverImage }) => (
             <li className={utilStyles.listItem} key={id}>
+            <Image
+              priority
+              src={coverImage}
+              // className={utilStyles.borderCircle}
+              height={144}
+              width={144}
+              alt=""
+            />
             <Link href={`/posts/${id}`}>{title}</Link>
             <br />
             <small className={utilStyles.lightText}>
