@@ -1,13 +1,11 @@
 import Image from 'next/image';
-import styles from './layout.module.css';
+import siteHeadStyles from './site-head.module.css'
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Antonio Guerriere';
-
 export default function SiteHead({ children, home }) {
   return (
-    <header className={styles.header}>
+    <header className={siteHeadStyles.header}>
     <Link href="/">
             <Image
               priority
@@ -18,11 +16,14 @@ export default function SiteHead({ children, home }) {
               alt=""
             />
           </Link>
-          <h2 className={utilStyles.headingLg}>
-            <Link href="/" className={utilStyles.colorInherit}>
-              {name}
-            </Link>
-          </h2>
+          <div className={siteHeadStyles.headDescription}>
+            <h2 className={utilStyles.headingLg}>
+              <Link href="/" className={utilStyles.colorInherit}>
+                Antonio Guerriere
+              </Link>
+            </h2>
+            <p>Programming, AI and the latest Technology</p>
+          </div>
     </header>
   );
 }
