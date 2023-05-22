@@ -1,5 +1,6 @@
 ---
 title: 'First post and mission statement'
+# ISO8601 yyyy-mm-dd
 date: '2023-05-22'
 intro: "Hello and welcome to my blog! Creating a blog has been an idea that I have had for years, and I'm excited to finally bring it to fruition. Like many others I love looking for answers to the big questions and this a platform to share my thoughts and findings with others."
 coverImage: '/images/posts-images/first-post.jpeg'

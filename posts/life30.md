@@ -1,5 +1,6 @@
 ---
 title: 'Book review - Life 3.0 by Max Tegmark'
+# ISO8601 yyyy-mm-dd
 date: '2023-05-23'
 intro: 'Being Human in the Age of Artificial Intelligence'
 coverImage: '/images/posts-images/life30.jpg'

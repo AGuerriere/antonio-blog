@@ -17,7 +17,6 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <script src="https://kit.fontawesome.com/654e2fda24.js" crossorigin="anonymous"></script>
       </Head>
       <SiteHead></SiteHead>
       <div className={styles.contentContainer}>

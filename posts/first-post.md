@@ -1,5 +1,6 @@
 ---
 title: 'Can machines be conscious'
+# ISO8601 yyyy-mm-dd
 date: '2023-05-22'
 intro: 'Consciousness is a complex topic that has been debated for centuries. It is not well-defined enough even for humans, let alone machines'
 coverImage: '/images/posts-images/profile.png'
