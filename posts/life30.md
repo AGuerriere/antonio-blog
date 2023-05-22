@@ -2,7 +2,7 @@
 title: 'Book review - Life 3.0 by Max Tegmark'
 # ISO8601 yyyy-mm-dd
 date: '2023-05-23'
-intro: 'Being Human in the Age of Artificial Intelligence'
+intro: 'Life 3.0 by Max Tegmark is a book that explores the profound implications of artificial intelligence (AI) on humanity’s future. The author, a cosmologist and co-founder of the Future of Life Institute, argues that AI is not just another technology, but a new stage of life that could radically transform our society, economy, and culture. He also warns of the potential risks and challenges that AI poses, and urges us to take proactive steps to ensure that AI is aligned with our values and goals.'
 coverImage: '/images/posts-images/life30.jpg'
 ---
 
