@@ -12,6 +12,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  color:#222;
 }
 
 .logo {
@@ -44,10 +45,16 @@
   font-size: 2rem;
 }
 
-
 .image {
   object-fit: contain;
   width: 20vw !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.imageFrontPage {
+  object-fit: contain;
+  width: 10vw !important;
   position: relative !important;
   height: unset !important;
 }

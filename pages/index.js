@@ -32,14 +32,15 @@ export default function Home( {allPostsData} ) {
             </small>
             <br />
             <Link className={utilStyles.headingXl } href={`/posts/${id}`}>{title}</Link>
-            <Image
-              priority
-              src={coverImage}
-              // className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt="excerpt banner"
-            />
+            <div>
+              <Image
+                priority
+                src={coverImage}
+                layout="fill" 
+                className={utilStyles.imageFrontPage}
+                alt="excerpt banner"
+              />
+            </div>
             <p>{intro}</p>
           </li>        
           ))}

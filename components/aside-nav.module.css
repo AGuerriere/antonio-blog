@@ -9,17 +9,13 @@
 
 .aside ul {
   padding: 0;
-  color: #666;
   font-size: smaller;
 }
 
-.aside p {
-  font-size: smaller;
-  color: #666;
-}
+
 
 .copyright {
-  font-size: 0.1rem;
+  font-size: 0.7rem;
 }
 
 .icon  {
@@ -30,6 +26,11 @@
   color:#0070f3;
 }
 
+.blogStart {
+  color: #222;
+  font-size: 0.9rem;
+}
+
 .copyright {
-  font-size: 4px;
+  color: #BBC7CC;
 }
