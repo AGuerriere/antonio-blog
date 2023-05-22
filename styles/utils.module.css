@@ -43,3 +43,11 @@
 .title {
   font-size: 2rem;
 }
+
+
+.image {
+  object-fit: contain;
+  width: 20vw !important;
+  position: relative !important;
+  height: unset !important;
+}

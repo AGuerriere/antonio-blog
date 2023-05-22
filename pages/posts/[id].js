@@ -31,14 +31,15 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
+      <div className={utilStyles.imageContainer}>
       <Image
         priority
         src={postData.coverImage}
         // className={utilStyles.borderCircle}
-        height={400}
-        width={700}
-        alt=""
+        layout="fill" 
+        className={utilStyles.image}
         />
+      </div>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />

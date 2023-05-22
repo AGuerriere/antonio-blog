@@ -3,7 +3,6 @@ import styles from './layout.module.css';
 import AsideNav from './aside-nav';
 import SiteHead from './site-head';
 
-
 export const siteTitle = 'Antonio\' blog';
 
 export default function Layout({ children, home }) {

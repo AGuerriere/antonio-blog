@@ -18,15 +18,18 @@
   color: #666;
 }
 
-
-.rss::before {
-  font: var(--fa-font-solid);
-  content: "\f09e";
+.copyright {
+  font-size: 0.1rem;
 }
 
+.icon  {
+  height:1rem;
+}
 
+.rss, .newsLetter {
+  color:#0070f3;
+}
 
-.newsLetter::before {
-  font: var(--fa-font-solid);
-  content: "\f0e0";
+.copyright {
+  font-size: 4px;
 }
