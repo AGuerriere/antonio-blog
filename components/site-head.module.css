@@ -19,8 +19,8 @@
   margin: 0;
 }
 
-.logo {
-
+.logoContainer {
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 900px) {
@@ -31,4 +31,14 @@
     margin: 1rem auto 1rem;
     max-width: none;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .header h2 {
+    font-size:1.3rem;
+  }
+  .header p {
+    font-size:0.5rem;
+  }
+
 }

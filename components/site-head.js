@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function SiteHead({ children, home }) {
   return (
     <header className={siteHeadStyles.header}>
-    <Link href="/">
+    <Link href="/" className={siteHeadStyles.logoContainer}>
             <Image
               priority
               src="/images/logo1.png"
