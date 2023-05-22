@@ -58,3 +58,14 @@
   position: relative !important;
   height: unset !important;
 }
+
+@media screen and (max-width: 900px) {
+  .imageFrontPage {
+    width:40vw !important;
+  }
+
+  .image {
+    width: 40vw !important;
+
+  }
+}
