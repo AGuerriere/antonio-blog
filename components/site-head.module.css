@@ -19,8 +19,16 @@
   margin: 0;
 }
 
+.logo {
+
+}
+
 @media screen and (max-width: 900px) {
   .header {
+    box-sizing: border-box;
     width: 100vw;
+    padding: 0 1rem;
+    margin: 1rem auto 1rem;
+    max-width: none;
   }
 }

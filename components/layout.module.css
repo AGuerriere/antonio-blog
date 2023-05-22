@@ -11,7 +11,7 @@
   justify-content: left;
   padding: 0 1rem;
   margin: 1rem auto 1rem;
-  width: 50vw;
+  max-width: 50vw;
 }
 
 
@@ -26,6 +26,10 @@
   }
 
   .contentContainer {
+    box-sizing: border-box;
     width: 100vw;
+    padding: 0 1rem;
+    margin: 1rem auto 1rem;
+    max-width: none;
   }
 }
