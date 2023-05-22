@@ -14,8 +14,8 @@
   margin: 1rem 0;
 }
 
-.borderCircle {
-  border-radius: 9999px;
+.logo {
+  border-radius: 10px;
 }
 
 .colorInherit {

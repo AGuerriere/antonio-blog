@@ -9,8 +9,8 @@ export default function SiteHead({ children, home }) {
     <Link href="/">
             <Image
               priority
-              src="/images/profile1.jpg"
-              className={utilStyles.borderCircle}
+              src="/images/logo1.png"
+              className={utilStyles.logo}
               height={108}
               width={108}
               alt=""
