@@ -9,12 +9,13 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" sizes="any" />
         <meta
           name="description"
           content="A blog about Artificial Intelligence, Software Development, and Technology"
         />
         {/* <meta name="og:title" content={siteTitle} /> */}
+        <meta property="og:site_name " content="Antonio's Blog" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <SiteHead></SiteHead>

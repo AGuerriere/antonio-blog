@@ -31,7 +31,7 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
         <meta property="og:title" content={postData.title} />
         {/* <meta property="og:url" content={"https://www.imdb.com/title/tt0117500/"} /> */}
-        <meta property="og:image" content={postData.image} />
+        <meta property="og:image" content={`https://antonio-blog.netlify.app/${postData.coverImage}`} />
       </Head>
       <article>
       <div className={utilStyles.imageContainer}>
