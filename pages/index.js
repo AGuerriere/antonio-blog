@@ -21,6 +21,8 @@ export default function Home( {allPostsData} ) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta property="og:title" content="Antonio's Blog" />
+        <meta property="og:image" content='https://antonio-blog.netlify.app/images/logo1.png' />
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
