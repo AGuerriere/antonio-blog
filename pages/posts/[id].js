@@ -35,13 +35,13 @@ export default function Post({ postData }) {
       </Head>
       <article>
       <div className={utilStyles.imageContainer}>
-      <Image
-        priority
-        src={postData.coverImage}
-        // className={utilStyles.borderCircle}
-        layout="fill" 
-        className={utilStyles.image}
-        />
+        <Image
+          priority
+          src={postData.coverImage}
+          // className={utilStyles.borderCircle}
+          layout="fill" 
+          className={utilStyles.image}
+          />
       </div>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
